@@ -1,18 +1,166 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Йога с Балдырган</title>
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body_intro">
     <div>
-        <h1>Йога с Балдырган</h1>
+        <h1 id = "h1_intro">Йога с Балдырган</h1>
         <h2>Погрузитесь в мир йоги с моей помощью и с участиями в моих марафонах и турах.</h2>
 
     </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yoga with Baldyrgan</title>
+    <style>
+		body {
+			background-image: url('assets/IMG_3404.JPG');
+			background-size: cover;
+            background-attachment: fixed;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+		}
+		
+		.header {
+			text-align: center;
+			font-size: 4vw;
+			margin-top: 5vw;
+		}
+
+		.subheader {
+			text-align: center;
+			font-size: 3vw;
+			margin-top: 2vw;
+		}
+
+		.blocks {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-top: 5vw;
+		}
+
+		.block {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: white;
+			padding: 5vw;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px grey;
+			width: 80%;
+			margin: 5vw 0;
+			max-width: 800px;
+		}
+
+		.image {
+			border-radius: 50%;
+			width: 50%;
+			height: auto;
+			margin: 0 auto;
+			display: block;
+			max-width: 400px;
+			max-height: 400px;
+		}
+
+		.date {
+			font-size: 3vw;
+			margin-top: 2vw;
+		}
+
+		.description {
+			margin-top: 2vw;
+			font-size: 2.5vw;
+			text-align: justify;
+		}
+
+		.button {
+			display: block;
+			margin: 5vw auto 0 auto;
+			padding: 2vw 5vw;
+			background-color: #007bff;
+			color: white;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 3vw;
+		}
+
+		.button:hover {
+			background-color: #0069d9;
+		}
+		
+		@media screen and (max-width: 600px) {
+			.header {
+				font-size: 6vw;
+			}
+			
+			.subheader {
+				font-size: 4vw;
+			}
+			
+			.block {
+				width: 90%;
+				padding: 10vw;
+				margin: 5vw 0;
+			}
+			
+			.image {
+				width: 70%;
+				max-width: 300px;
+				max-height: 300px;
+			}
+			
+			.date {
+				font-size: 4vw;
+			}
+			
+			.description {
+				font-size: 3.5vw;
+			}
+			
+			.button {
+				font-size: 4vw;
+				padding: 3vw 6vw;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		Йога с Балдырган
+	</div>
+	<div class="subheader">
+		Погрузитесь в мир йоги с моими курсами и марафонами.
+	</div>
+
+	<div class="blocks">
+		<div class="block">
+			<img src="yoga-tour.jpg" alt="Yoga Tour" class="image">
+			<div class="date">March 30, 2023</div>
+			<div class="description">Join me on a yoga tour to India and discover the spiritual side of yoga. You will experience daily yoga classes, meditation sessions, and visits to sacred sites. This tour will change your life!</div>
+			<a href="#" class="button">Learn More</a>
+		</div>
+
+		<div class="block">
+			<img src="yoga-course.jpg" alt="Yoga Course" class="image">
+			<div class="date">April 15, 2023</div>
+			<div class="description">Join my online yoga course and learn the basics of yoga from the comfort of your own home. You will receive personalized instruction and feedback from me, as well as access to exclusive resources and materials.</div>
+			<a href="#" class="button">Learn More</a>
+		</div>
+	</div>
 </body>
 </html>
