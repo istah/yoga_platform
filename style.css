@@ -1,4 +1,148 @@
-#body_intro {
-    background-image: "assets/IMG_3404.JPG";
-    background-color: #cccccc;
+body {
+    background-image: url('assets/IMG_3404.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
 }
+
+.header {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 5vw;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 5vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    width: 80%;
+    margin: 5vw 0;
+    max-width: 800px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.date {
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+.description {
+    margin-top: 2vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+
+.button {
+    display: block;
+    margin: 5vw auto 0 auto;
+    padding: 2vw 5vw;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.button:hover {
+    background-color: #0069d9;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 6vw;
+    }
+    
+    .subheader {
+        font-size: 4vw;
+    }
+    
+    .block {
+        width: 90%;
+        padding: 10vw;
+        margin: 5vw 0;
+    }
+    
+    .image {
+        width: 70%;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .date {
+        font-size: 4vw;
+    }
+    
+    .description {
+        font-size: 3.5vw;
+    }
+    
+    .button {
+        font-size: 4vw;
+        padding: 3vw 6vw;
+    }
+}
+  nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  #logo {
+    margin-left: 10px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
