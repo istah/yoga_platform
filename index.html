@@ -22,6 +22,8 @@
 <head>
 	<title>Йога с Балдырган</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 </head>
 <body>
 	<nav>
@@ -39,20 +41,36 @@
 		Погрузитесь в мир йоги с моими курсами и марафонами.
 	</div>
 
-	<div class="blocks">
+	<div class="slider">
 		<div class="block">
 			<img src="borovoe.JPG" alt="Yoga Tour" class="image">
-			<div class="date">Боровое. 6-8 мая, 2023.</div>
-			<div class="description">Это праздники. Боровое с шикарной природой. База отдыха "Земляничная поляна", нас уже ждут! И три раза нас буду кормить свежей домашней едой. Йога дважды в день, прогулки, основная экскурсия. Хорошее настроение и смех входят в стоимость.</div>
-			<a href="#" class="button">Подробнее</a>
+			<div class="date">March 30, 2023</div>
+			<div class="description">Join me on a yoga tour to India and discover the spiritual side of yoga. You will experience daily yoga classes, meditation sessions, and visits to sacred sites. This tour will change your life!</div>
+			<a href="#" class="button">Learn More</a>
 		</div>
 
 		<div class="block">
-			<img src="yoga-course.jpg" alt="Yoga Course" class="image">
+			<img src="borovoe.JPG" alt="Yoga Course" class="image">
 			<div class="date">April 15, 2023</div>
 			<div class="description">Join my online yoga course and learn the basics of yoga from the comfort of your own home. You will receive personalized instruction and feedback from me, as well as access to exclusive resources and materials.</div>
-			<a href="#" class="button">Подробнее</a>
+			<a href="#" class="button">Learn More</a>
 		</div>
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 5000,
+				dots: true,
+				arrows: false
+			});
+		});
+	</script>
 </body>
 </html>
