@@ -6,10 +6,16 @@ h1 {
 
 #class-block {
     background-color: #A3E7FC;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
     text-align: left;
     padding: 5%;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    background-clip: padding-box;
 }
 
 
