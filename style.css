@@ -3,3 +3,54 @@ h1 {
     font-size: 2.5rem;
     line-height: 1.5;
 }
+
+#class-block {
+    background-color: #A3E7FC;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 5%;
+}
+
+
+/* Title */
+
+/* NavBar */
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Buttons */
+.title-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Images */
+.title-img {
+    width: 60%;
+}
+
+.title-container {
+    height: 100%;
+    margin-bottom: 5rem;
+}
+
+
+/* #course-container {
+    padding: 7% 0;
+} */
