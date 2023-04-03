@@ -19,6 +19,18 @@ h1 {
     background-clip: padding-box;
 }
 
+.blur-rule {
+    height: 1px;
+    width: 100%;
+    background-color: #dedede;
+    margin: 20px 0;
+    display: block;
+
+    -webkit-box-shadow: 0 0 4px 0 #666;
+    -moz-box-shadow: 0 0 4px 0 #666;
+    box-shadow: 0 0 4px 0 #666;
+}
+
 
 /* Title */
 
@@ -64,4 +76,13 @@ h1 {
 
 .review-box {
     padding: 20%;
+}
+
+.about-coach {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img-about {
+    padding-left: 5%;
 }
