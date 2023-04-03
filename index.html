@@ -17,6 +17,8 @@
 
 <body style="background-color: white;">
     <div class="container">
+
+        <!-- NavBar -->
         <nav class='navbar navbar-expand-lg navbar-light'>
             <a class='navbar-brand' href=''> Йога для всех</a>
             <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarTogglerDemo02'
@@ -26,27 +28,28 @@
             <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
                 <ul class='navbar-nav ms-auto'>
                     <li class='nav-item'>
-                        <a class='nav-link' href=''>Занятия и курсы</a>
+                        <a class='nav-link' href='#courses'>Занятия и курсы</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href=''>Обо мне</a>
+                        <a class='nav-link' href='#about-me'>Обо мне</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href=''>Отзывы</a>
+                        <a class='nav-link' href='#reviews'>Отзывы</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href=''>Свяжитесь со мной</a>
+                        <a class='nav-link' href='#email-me'>Свяжитесь со мной</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <section>
-            <div class='row title-container'>
+        <!-- Title Block -->
+        <section class="title-container">
+            <div class='row'>
                 <div class='col-md-6'>
                     <img class="title-img" src="assets/bal.png" alt="Балдырган Асканбаева" class='img-fluid'>
                 </div>
-                <div class='col-md-6'>
+                <div class='col-md-6 title-text'>
                     <h1>
                         Доступно и понятно в мир йоги с Балдырган
                     </h1>
@@ -64,17 +67,18 @@
                             Занятия в студии
                         </li>
                     </ul>
-                    <center><button type='button' class='btn btn-primary btn-lg title-button'>
-                            Подробнее
-                        </button></center>
-
+                    <button type='button' class='btn btn-primary btn-lg title-button w-100'>
+                        Подробнее
+                    </button>
                 </div>
             </div>
         </section>
 
         <div class="blur-rule"></div>
 
-        <section>
+        <!-- Available courses block -->
+
+        <section class="class-block" id="courses">
             <div class="container-fluid">
                 <h1>
                     Доступные занятия, курсы и туры
@@ -99,7 +103,7 @@
                                 Экскурсии
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-primary btn-sm">Button</button>
+                        <button type="button" class="btn btn-primary btn-sm w-100">Button</button>
                     </div>
 
                     <div class="col-md-4 box" id="class-block">
@@ -118,7 +122,7 @@
                                 2-x разовое питание
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-primary btn-sm">Button</button>
+                        <button type="button" class="btn btn-primary btn-sm w-100">Button</button>
                     </div>
                     <div class="col-md-4 box" id="class-block">
                         <h2>Онлайн йога - "Антивирус"</h2>
@@ -142,7 +146,7 @@
                                 Обратная связь
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-primary btn-sm"
+                        <button type="button" class="btn btn-primary btn-sm w-100"
                             onclick="window.location.replace('antivirus.html')">Подробнее</button>
                     </div>
                     <div class="col-md-4 box" id="class-block">
@@ -164,7 +168,7 @@
                                 Абонементная и разовая оплата
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-primary btn-sm">Button</button>
+                        <button type="button" class="btn btn-primary btn-sm w-100">Button</button>
                     </div>
                 </div>
             </div>
@@ -172,52 +176,57 @@
 
         <div class="blur-rule"></div>
 
-        <div class="container">
-            <h1>
-                Ваш инструктор
-            </h1>
-            <div class="row about-coach">
-                <div class="col-md-6">
-                    <h2>Сертифицированный преподаватель по хатха-йоге.</h2>
-                    <ul>
-                        <li>
-                            Курс YTTC-200, Art Yoga Studio.
-                        </li>
-                        <li>
-                            Международная сертификация в Yoga Alliance Interna-
-                            tional of India.
-                        </li>
-                    </ul>
-                    <p>
-                        Мне посчастливилось участвовать на живых семинарах Михаила Константинова и Игоря Пантюшева,
-                        пройти
-                        множество онлайн обучений:
-                    </p>
-                    <ul>
-                        <li>
-                            По биомеханике с Игорем Пантюшевым.
-                        </li>
-                        <li>
-                            Трёхмесячный онлайн курс YantaSchool с акцентом
-                            на теорию йоги и отстройку асан.
-                        </li>
-                        <li>
-                            Курс с сертификацией по Травмобезопасности асан с Ксенией Шатской.
-                        </li>
-                        <li>
-                            Онлайн практика с Еленой Чистяковой.
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-about" src="assets/bal.png" alt="Балдырган Асканбаева">
+        <!-- About me block -->
+
+        <section id="about-me">
+            <div class="container">
+                <h1>
+                    Ваш инструктор
+                </h1>
+                <div class="row about-coach">
+                    <div class="col-md-6">
+                        <h2>Сертифицированный преподаватель по хатха-йоге.</h2>
+                        <ul>
+                            <li>
+                                Курс YTTC-200, Art Yoga Studio.
+                            </li>
+                            <li>
+                                Международная сертификация в Yoga Alliance Interna-
+                                tional of India.
+                            </li>
+                        </ul>
+                        <p>
+                            Мне посчастливилось участвовать на живых семинарах Михаила Константинова и Игоря Пантюшева,
+                            пройти
+                            множество онлайн обучений:
+                        </p>
+                        <ul>
+                            <li>
+                                По биомеханике с Игорем Пантюшевым.
+                            </li>
+                            <li>
+                                Трёхмесячный онлайн курс YantaSchool с акцентом
+                                на теорию йоги и отстройку асан.
+                            </li>
+                            <li>
+                                Курс с сертификацией по Травмобезопасности асан с Ксенией Шатской.
+                            </li>
+                            <li>
+                                Онлайн практика с Еленой Чистяковой.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-about" src="assets/bal.png" alt="Балдырган Асканбаева">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
 
         <div class="blur-rule"></div>
 
-        <section id='reviews'>
+        <section class="reviews-block" id="reviews">
             <h1>Отзывы</h1>
             <div id="carouselExampleControls" class="carousel slide review-box" data-ride="carousel">
                 <div class="carousel-inner">
@@ -255,10 +264,13 @@
 
         <div class="blur-rule"></div>
 
-        <div>
-            <h1>Consult me</h1>
-            form
-        </div>
+        <section id="email-me">
+            <div>
+                <h1>Consult me</h1>
+                form
+            </div>
+        </section>
+
         <footer class='d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top'>
             <div class="col-md-4 d-flex align-items-center">
                 <span class='mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1'>2023, made with love by I.
