@@ -71,7 +71,7 @@ h1 {
 /* Title */
 
 .title-img {
-    width: 70%;
+    width: 60%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -105,18 +105,14 @@ h1 {
     margin-right: 15%;
 }
 
-/* Reviews block */
-
-.reviews-block {
-    padding: 5% 0;
-    height: 300px;
-}
-
 .about-coach {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.img-about {
-    padding-left: 5%;
+/* Reviews block */
+
+.reviews-block {
+    padding: 5% 0;
+    height: 300px;
 }
