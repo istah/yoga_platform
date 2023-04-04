@@ -116,3 +116,17 @@ h1 {
     padding: 5% 0;
     height: 300px;
 }
+
+
+/* ANTIVIRUS PAGE */
+.title-img-antivirus {
+    height: 25%;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.title-text-antivirus {
+    margin-top: auto;
+    margin-bottom: auto;
+}
