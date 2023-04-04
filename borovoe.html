@@ -5,10 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Стильный йога-тур в Боровое</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <!-- NavBar -->
+        <nav class='navbar navbar-expand-lg navbar-light'>
+            <a class='navbar-brand' href='index.html'> Йога для всех</a>
+            <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarTogglerDemo02'
+                aria-controls='navbarTogglerDemo02'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
+                <ul class='navbar-nav ms-auto'>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#courses'>Занятия и курсы</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#about-me'>Обо мне</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#reviews'>Отзывы</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#email-me'>Свяжитесь со мной</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Title Block -->
+        <section class="title-container container">
+            <div class='row'>
+                <div class='col-md-6 container-fluid'>
+                    <img class="title-img" src="assets/batumi.jpg" alt="Балдырган Асканбаева" class='img-fluid'>
+                </div>
+                <div class='col-md-6 title-text'>
+                    <h1>
+                        Стильный йога-тур в Боровое
+                    </h1>
+                    <p>
+                        Йога-тур в Боровое - это замечательная возможность сочетания путешествия и йоги. Боровое - это
+                        живописный уголок природы в Казахстане, который славится своими горными пейзажами, чистым
+                        воздухом и кристально чистыми озерами.
+                    </p>
+                    <button type='button' class='btn btn-primary btn-lg title-button w-100'
+                        onClick="document.getElementById('courses').scrollIntoView();">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+
+        <section class="about-antivirus">
+            <h1>О туре</h1>
+            <p>Занятия проходят в прямом эфире закрытого аккаунта каждое утро с понедельника по пятницу в 7-00 утра. Все
+                уроки сохраняются в записи и заниматься можно в любое удобное для вас время, есть каталог занятий.</p>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2>
+                        Даты
+                    </h2>
+                    <p>6-8 мая, 2023</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2>
+                        Йога
+                    </h2>
+                    <p>Волшебные практики йоги в утреннее и вечернее время</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h2>Проживание</h2>
+                    <p>Проживание в коттеджном городке "Земляничная поляна"</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Питание</h2>
+                    <p>3-х разовое питание</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Экскурсии</h2>
+                    <p>Экскурсии</p>
+                </div>
+            </div>
+        </section>
+
+        <section
+            style="background-color: blue; height: 400px; background-size: cover; text-align: center; border-radius: 15px;">
+            <div style="padding-top: 150px; padding-bottom: auto;">
+                <h1>Заинтересованы?</h1>
+                <h2>Если да, то обращайтесь на WhatsApp нажав на кнопку внизу</h2>
+                <button></button>
+            </div>
+        </section>
+
+        <footer class='d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top'>
+            <div class="col-md-4 d-flex align-items-center">
+                <span class='mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1'>2023, made with love by I.
+                    Massalin.</span>
+            </div>
+            <div class='nav col-md-4 d-flex align-items-center'>
+                <ul class='nav col-md-4 justify-content-end list-unstyled d-flex'>
+                    <li class="ms-6"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="ms-6"><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 
 </body>
 

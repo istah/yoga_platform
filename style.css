@@ -79,6 +79,8 @@ h2 {
     width: 60%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .title-container {
@@ -94,6 +96,8 @@ h2 {
 .title-text {
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Class block */
