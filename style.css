@@ -70,6 +70,12 @@ h1 {
 
 /* Title */
 
+.title-img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .title-container {
     height: 100%;
     padding-top: 2%;
@@ -89,6 +95,14 @@ h1 {
 
 .class-block {
     padding: 5% 0;
+}
+
+/* About section */
+
+.img-about {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Reviews block */
